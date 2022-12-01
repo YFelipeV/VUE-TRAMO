@@ -133,7 +133,102 @@
 
 <!-- ============================================-->
 <!-- <section> begin ============================-->
+<!-- preguntas frecuentes-->
+<section class="py-md-8" id="faq">
 
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-8 col-lg-6 text-center mb-3 mt-5">
+        <h6 class="fw-bold fs-2 lh-sm mb-3 mt-5">Preguntas Frecuentes</h6>
+        <p class="mb-5 text-secondary  ">The rise of mobile devices transforms the way we consume information entirely
+          and the
+          world's most elevant channels such as Facebook.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header" id="heading1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                aria-expanded="true" aria-controls="collapse1"><span
+                  class="mb-0 fw-bold text-start fs-5  texto-color">How to contact with riders
+                  emergency?</span></button>
+            </h2>
+            <div class="accordion-collapse collapse show " id="collapse1" aria-labelledby="heading1  "
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-secondary bg-color  ">Leverage agile frameworks to provide a robust
+                synopsis for high
+                level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further
+                the overall value proposition. Organically grow the holistic world view of disruptive innovation via
+                workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure
+                proactive domination. At the end of the day, going forward, a new normal that has evolved from
+                generation X is on the runway heading towards a streamlined cloud solution. User generated content
+                in real-time will have multiple touchpoints for offshoring.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header" id="heading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span
+                  class="mb-0 fw-bold text-start fs-5 ">App installation failed, how to update system
+                  information?</span></button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapse2" aria-labelledby="heading2"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body  text-secondary bg-color ">You can issue either partial or full refunds. There
+                are no fees to
+                refund a charge, but the fees from the original charge are not returned.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header" id="heading3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><span
+                  class="mb-0 fw-bold text-start fs-5 ">Website reponse taking time, how to
+                  improve?</span></button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapse3" aria-labelledby="heading3"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-secondary bg-color ">Disputed payments (also known as chargebacks) incur a
+                $15.00 fee.
+                If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header" id="heading4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><span
+                  class="mb-0 fw-bold text-start fs-5 texto-color">New update fixed all bug and issues</span></button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapse4" aria-labelledby="heading4"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-secondary bg-color">There are no additional fees for using our mobile SDKs
+                or to accept
+                payments using consumer wallets like Apple Pay or Google Pay.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2  ">
+            <h2 class="accordion-header" id="heading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span
+                  class="mb-0 fw-bold text-start fs-5   texto-color">How to contact with riders
+                  emergency?</span></button>
+            </h2>
+            <div class="accordion-collapse collapse" id="collapse5" aria-labelledby="heading5"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-secondary bg-color ">There are no additional fees for using our mobile
+                SDKs or to accept
+                payments using consumer wallets like Apple Pay or Google Pay.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of .container-->
+
+</section>
 
 
 <!-- end of .container-->
