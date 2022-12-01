@@ -111,7 +111,7 @@
                 <div class="row">
                     <!-- Contact Information -->
                     <div class="col-12 col-lg-5">
-                        <div class="contact-information wow fadeInUp bg-color" data-wow-delay="400ms">
+                        <div class="contact-information wow fadeInUp " data-wow-delay="400ms">
                             <div >
                                 <h3 class="titulo-form text-start">Envia Tu Pregunta</h3>
                                 <p class="mt-30 text-start"> urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris.</p>
