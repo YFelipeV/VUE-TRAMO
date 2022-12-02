@@ -20,9 +20,10 @@
                 </li>
 
             </ul>
-            <form class="ps-lg-4">
-                <button class="btn btn-lg btn-primary rounded-pill order-0 fs-6 text-center" type="submit">Inicio Sesion</button>
-            </form>
+            
+                <a href="#/login" class="btn btn-lg btn-primary rounded-pill order-0 fs-6 text-center">Inicio Sesion</a>
+                
+            
         </div>
     </div>
 </nav>
