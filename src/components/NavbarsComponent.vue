@@ -43,22 +43,22 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-end bg-dark border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">
+                            <a  class="dropdown-item">
                                 <h6 class="fw-normal mb-0">Perfil actualizado</h6>
                                 <small>15 minutes ago</small>
                             </a>
                             <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
+                            <a  class="dropdown-item">
                                 <h6 class="fw-normal mb-0">Nuevo usuario agregado</h6>
                                 <small>15 minutes ago</small>
                             </a>
                             <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
+                            <a  class="dropdown-item">
                                 <h6 class="fw-normal mb-0">Contraseña cambiada</h6>
                                 <small>15 minutes ago</small>
                             </a>
                             <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item text-center">Ver todas las notificaciones</a>
+                            <a  class="dropdown-item text-center">Ver todas las notificaciones</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
