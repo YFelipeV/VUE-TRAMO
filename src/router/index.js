@@ -25,9 +25,40 @@ const routes = [
       import(/* webpackChunkName: "contactos" */ "../views/ContactosView.vue"),
   },
   {
-    path: "/login",
-    name: "login",
+    path: "/Login",
+    name: "LoginView",
     component: LoginView,
+  },
+  {
+    path: "/DashboarAdmin",
+    component: () => import("@/views/DashboardAdmin/homeView.vue"),
+    children: [
+      {
+        path: "/conductores",
+        component: () => import("@/views/DashboardAdmin/ConductoresView.vue"),
+      },
+      {
+        path: "/datosCliente",
+        component: () => import("@/views/DashboardAdmin/datosCliente.vue"),
+      },
+      {
+        path: "/datosConductor",
+        component: () => import("@/views/DashboardAdmin/datosConductor.vue"),
+      },
+      {
+        path: "/historial",
+        component: () => import("@/views/DashboardAdmin/historialView.vue"),
+      },
+      {
+        path: "/pqrs",
+        component: () => import("@/views/DashboardAdmin/pqrsView.vue"),
+      },
+      {
+        path: "/solicitudConductores",
+        component: () =>
+          import("@/views/DashboardAdmin/solicitudConductores.vue"),
+      },
+    ],
   },
 ];
 
