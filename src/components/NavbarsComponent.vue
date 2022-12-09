@@ -88,7 +88,8 @@
 
 <script>
 export default {
-    name: 'MenuSuperior'
+    name: 'MenuSuperior',
+    
 }
 
 /* const button = document.querySelector("a.sidebar-toggler");

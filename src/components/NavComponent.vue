@@ -21,7 +21,7 @@
 
             </ul>
             
-                <a href="#/login" class="btn btn-lg btn-primary rounded-pill order-0 fs-6 text-center">Inicio Sesion</a>
+                <a href="#/login" class="btn btn-lg btn-primary rounded-pill order-0 fs-6 text-center me-1">Inicio Sesion</a>
                 
             
         </div>
@@ -42,6 +42,6 @@ export default {
 }
 .navbar{
     background-color: transparent;
-    height: 100px;
+    height: 80px;
 }
 </style>

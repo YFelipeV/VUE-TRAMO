@@ -1,6 +1,5 @@
 <template>
   <MenuSuperior></MenuSuperior>
-  
 </template>
 
 <script>
