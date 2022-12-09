@@ -36,7 +36,7 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <router-link to="/DashboarAdmin" class="btn bg-warning text-white py-3 w-100 mb-3"> Iniciar sesion</router-link>
+                  <router-link to="/Dashboard" class="btn bg-warning text-white py-3 w-100 mb-3"> Iniciar sesion</router-link>
                   <p class="text-center mb-0">Administrador TRAMO</p>
                 </div>
               </form>

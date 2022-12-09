@@ -30,31 +30,31 @@ const routes = [
     component: LoginView,
   },
   {
-    path: "/DashboarAdmin",
+    path: "/Dashboard",
     component: () => import("@/views/DashboardAdmin/homeView.vue"),
     children: [
       {
-        path: "/conductores",
+        path: "/Dashboard/conductores",
         component: () => import("@/views/DashboardAdmin/ConductoresView.vue"),
       },
       {
-        path: "/datosCliente",
+        path: "/Dashboard/datosCliente",
         component: () => import("@/views/DashboardAdmin/datosCliente.vue"),
       },
       {
-        path: "/datosConductor",
+        path: "/Dashboard/datosConductor",
         component: () => import("@/views/DashboardAdmin/datosConductor.vue"),
       },
       {
-        path: "/historial",
+        path: "/Dashboard/historial",
         component: () => import("@/views/DashboardAdmin/historialView.vue"),
       },
       {
-        path: "/pqrs",
+        path: "/Dashboard/pqrs",
         component: () => import("@/views/DashboardAdmin/pqrsView.vue"),
       },
       {
-        path: "/solicitudConductores",
+        path: "/Dashboard/solicitudConductores",
         component: () =>
           import("@/views/DashboardAdmin/solicitudConductores.vue"),
       },

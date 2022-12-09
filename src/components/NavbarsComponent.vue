@@ -8,17 +8,17 @@
                     <h2 class="text-warning">TRAMO <span class="text-dark">S.A.S</span></h2>
                 </router-link>
                 <div class="navbar-nav w-100">
-                    <router-link to="/conductores" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/conductores" class="nav-item nav-link   text-dark fw-bold "><i
                             class="bi bi-person-vcard-fill -alt me-2"></i>Conductores</router-link>
-                    <router-link to="/solicitudConductores" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/solicitudConductores" class="nav-item nav-link   text-dark fw-bold "><i
                             class="bi bi-person-add me-2"></i>Solicitudes</router-link>
-                    <router-link to="/datosConductor" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/datosConductor" class="nav-item nav-link   text-dark fw-bold "><i
                             class="bi bi-clipboard-data me-2"></i>Datos Conductores</router-link>
-                    <router-link to="/datosCliente" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/datosCliente" class="nav-item nav-link   text-dark fw-bold "><i
                             class="bi bi-file-earmark-bar-graph me-2"></i>Datos Clientes</router-link>
-                    <router-link to="/historial" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/historial" class="nav-item nav-link   text-dark fw-bold "><i
                             class="bi bi-clock-history me-2"></i>Historial</router-link>
-                    <router-link to="/pqrs" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/pqrs" class="nav-item nav-link   text-dark fw-bold "><i
                             class="bi bi-person-fill-exclamation me-2"></i>PQRS</router-link>
                     <router-link to="/login" class="nav-item nav-link   text-dark fw-bold "><i
                             class="bi bi-box-arrow-left me-2"></i>Cerrar sesión</router-link>
