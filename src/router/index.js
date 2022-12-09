@@ -58,6 +58,11 @@ const routes = [
         component: () =>
           import("@/views/DashboardAdmin/solicitudConductores.vue"),
       },
+      {
+        path: "/Dashboard/EditarPerfil",
+        component: () =>
+          import("@/views/DashboardAdmin/perfilView.vue"),
+      },
     ],
   },
 ];

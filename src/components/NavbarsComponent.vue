@@ -71,7 +71,7 @@
                             <span class="d-none d-lg-inline-flex">Carlos Noguera</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-dark border-0 rounded-0 rounded-bottom m-0">
-                            <router-link to="/perfilView" class="dropdown-item">Mi perfil</router-link>
+                            <router-link to="/Dashboard/EditarPerfil" class="dropdown-item">Mi perfil</router-link>
                             <router-link to="/login" class="dropdown-item">Cerrar sesion</router-link>
 
                         </div>
