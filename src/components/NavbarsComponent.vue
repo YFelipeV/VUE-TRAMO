@@ -5,7 +5,10 @@
             <nav class="navbar bg-white navbar-dark">
                 <router-link to="/" class="navbar-brand d-flex align-items-center fw-bold fs-3 pb-3 ps-3"
                     id="tramos_sas">
-                    <h2 class="text-warning">TRAMO <span class="text-dark">S.A.S</span></h2>
+                    <div class="d-flex justify-content-center ">
+                        <img src="@/assets/favicon/Logofin.png" class="logo-nav" alt="">
+                    </div>
+                    
                 </router-link>
                 <div class="navbar-nav w-100">
                     <router-link to="/Dashboard/conductores" class="nav-item nav-link   text-dark fw-bold "><i
@@ -120,7 +123,9 @@ button.addEventListener("click", () => {
 
 
 
-
+.logo-nav{
+    width: 80%;
+}
 
 
 

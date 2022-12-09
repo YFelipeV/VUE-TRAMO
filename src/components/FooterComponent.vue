@@ -8,7 +8,7 @@
       <div class="footer__container container-fluid ">
         <div class="row d-flex pb-md-5">
           <div class="col-12 col-md-6 col-xl-4 text-center text-md-start newsletter ps-md-5">
-            <h6 class="footer__title">TRAMO S.A.S</h6>
+            <img  src="@/assets/favicon/negativo.png" class="footer__img " > 
             <ul class="footer__list my-4 text-center">
               <li class="footer__list-item me-2">
                 <a href="#" class="footer__list-link">
@@ -150,6 +150,9 @@ i {
     text-decoration: none;
     color: inherit;
     transition: color .25s;
+}
+.footer__img{
+  width: 60%;
 }
 
 .footer__list-link:hover {

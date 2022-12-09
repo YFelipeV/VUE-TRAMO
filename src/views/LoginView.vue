@@ -5,12 +5,11 @@
       <div class="container-fluid ">
         <div class="row h-100 align-items-center justify-content-center  " style="min-height: 100vh;"
           id="fondo_inicio_sesion_administrador">
-          <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3    bg-light px-0">
+          <div class="col-12 col-sm-8 col-md-8 col-lg-4 col-xl-3    bg-light px-0">
             <div class="rounded  p-sm-5 px-5  border" id="contenedor_inicio ">
               <div class="d-flex align-items-center justify-content-center mb-4   ">
                 <a class="navbar-brand d-flex align-items-center fw-bold fs-3 text-center" href="/" id="tramos_sas ">
-                  <h2 class="text-warning">TRAMO</h2>
-                  <h2 class="text-dark">S.A.S</h2>
+                  <img src="@/assets/favicon/Logofin.png" class="logo-form" alt="">
 
                 </a>
               </div>
@@ -62,6 +61,9 @@ export default {
   background-size: cover;
   background-position: center center;
 
+}
+.logo-form{
+  width: 95%;
 }
 
 
