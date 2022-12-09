@@ -3,27 +3,28 @@
         <!-- Sidebar Start -->
         <div class="sidebar pe-4 borders pb-3">
             <nav class="navbar bg-white navbar-dark">
-                <router-link to="/" class="navbar-brand d-flex align-items-center fw-bold fs-3 pb-3 ps-3"
+                <router-link to="/" class="navbar-brand  fw-bold fs-3 pb-3 ps-3"
                     id="tramos_sas">
-                    <div class="d-flex justify-content-center ">
+                    <div class="d-flex justify-content-start">
                         <img src="@/assets/favicon/Logofin.png" class="logo-nav" alt="">
+                        <hr>
                     </div>
                     
                 </router-link>
                 <div class="navbar-nav w-100">
-                    <router-link to="/Dashboard/conductores" class="nav-item nav-link   text-dark fw-bold "><i
-                            class="bi bi-person-vcard-fill -alt me-2"></i>Conductores</router-link>
-                    <router-link to="/Dashboard/solicitudConductores" class="nav-item nav-link   text-dark fw-bold "><i
-                            class="bi bi-person-add me-2"></i>Solicitudes</router-link>
-                    <router-link to="/Dashboard/datosConductor" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/conductores" class="nav-item nav-link text-start   text-dark fw-bold "><i
+                            class="bi bi-person-vcard-fill  -alt me-2"></i>Conductores</router-link>
+                    <router-link to="/Dashboard/solicitudConductores" class="nav-item nav-link text-start   text-dark fw-bold "><i
+                            class="bi bi-person-add me-2  "></i>Solicitudes</router-link>
+                    <router-link to="/Dashboard/datosConductor" class="nav-item nav-link text-start    text-dark fw-bold "><i
                             class="bi bi-clipboard-data me-2"></i>Datos Conductores</router-link>
-                    <router-link to="/Dashboard/datosCliente" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/datosCliente" class="nav-item nav-link text-start   text-dark fw-bold "><i
                             class="bi bi-file-earmark-bar-graph me-2"></i>Datos Clientes</router-link>
-                    <router-link to="/Dashboard/historial" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/historial" class="nav-item nav-link  text-start  text-dark fw-bold "><i
                             class="bi bi-clock-history me-2"></i>Historial</router-link>
-                    <router-link to="/Dashboard/pqrs" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/Dashboard/pqrs" class="nav-item nav-link text-start    text-dark fw-bold "><i
                             class="bi bi-person-fill-exclamation me-2"></i>PQRS</router-link>
-                    <router-link to="/login" class="nav-item nav-link   text-dark fw-bold "><i
+                    <router-link to="/login" class="nav-item nav-link text-start   text-dark fw-bold "><i
                             class="bi bi-box-arrow-left me-2"></i>Cerrar sesión</router-link>
 
                 </div>
