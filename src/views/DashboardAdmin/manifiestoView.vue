@@ -1,9 +1,9 @@
 <template>
 <div>
-    <div class="manifiesto">
-        <table style="border:10px solid black" id="tabla_manifiesto">
+    <div class="manifiesto text-black">
+        <table  id="tabla_manifiesto">
             <tr>
-                <td colspan="3">05/03/2022</td>
+                <td colspan="3"></td>
     
                 <td rowspan="5" colspan="3">
                     <b>MANIFIESTO ELECTRONICO DE CARGA</b><br>
@@ -14,18 +14,17 @@
     
                 <td rowspan="5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque architecto iste neque voluptatum vero
-                    laudantium temporibus, unde vel iusto ex, impedit ipsa atque ratione corporis rem! Quae deserunt
-                    repudiandae qui!<br>
-                    <b>MANIFIESTO:</b> 032545<br>
-                    <b>AUTORIZACIÓN:</b> 325656553565565
+                    laudantium temporibus<br>
+                    <div class="bg-secondary text-black text-start"  ><b>MANIFIESTO:</b> 032545<br><br>
+                    <b>AUTORIZACIÓN:</b> 325656553565565</div>
                 </td>
     
-                <td rowspan="7"><img src="@/assets/images/qr.png"></td>
+                <td rowspan="7"><img src="@/assets/images/qr.png" style="width:100%"></td>
             </tr>
     
             <tr>
                 <td colspan="3" rowspan="2" style="border: none;"><img src="@/assets/favicon/Logofin.png" 
-                    style="width:'220px'" ></td>
+                    style="width:80%" ></td>
             </tr>
     
             <tr>
@@ -33,7 +32,7 @@
             </tr>
     
             <tr>
-                <td colspan="3" rowspan="2" style="border: none;"><img src="@/assets/images/MINTRANSPORTE.png" width="220px"></td>
+                <td colspan="3" rowspan="2" style="border: none;"><img src="@/assets/images/MINTRANSPORTE.png" style="width:80%"></td>
             </tr>
     
             <tr>
@@ -249,3 +248,8 @@ export default {
 
 }
 </script>
+<style scoped>
+table,tr,td{
+    border: 1px solid black;
+}
+</style>
