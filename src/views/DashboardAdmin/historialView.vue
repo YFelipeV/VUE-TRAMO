@@ -64,7 +64,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a href="./HTML2/manifiesto.html" target="_blank" class="ver_manifiesto">Ver
+                            <td colspan="2"><a href="#/Dashboard/manifiesto" target="_blank" class="ver_manifiesto">Ver
                                     manifiesto de viaje</a></td>
                         </tr>
                     </table>
@@ -128,7 +128,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a href="./HTML2/manifiesto.html" target="_blank" class="ver_manifiesto">Ver
+                            <td colspan="2"><a href="#/Dashboard/manifiesto" target="_blank" class="ver_manifiesto">Ver
                                     manifiesto de viaje</a></td>
                         </tr>
                     </table>
@@ -192,7 +192,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a href="./HTML2/manifiesto.html" target="_blank" class="ver_manifiesto">Ver
+                            <td colspan="2"><a href="#/Dashboard/manifiesto" target="_blank" class="ver_manifiesto">Ver
                                     manifiesto de viaje</a></td>
                         </tr>
                     </table>
@@ -256,7 +256,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a href="./HTML2/manifiesto.html" target="_blank" class="ver_manifiesto">Ver
+                            <td colspan="2"><a href="#/Dashboard/manifiesto" target="_blank" class="ver_manifiesto">Ver
                                     manifiesto de viaje</a></td>
                         </tr>
                     </table>
@@ -320,7 +320,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a href="./HTML2/manifiesto.html" target="_blank" class="ver_manifiesto">Ver
+                            <td colspan="2"><a href="#/Dashboard/manifiesto" target="_blank"  class="ver_manifiesto">Ver
                                     manifiesto de viaje</a></td>
                         </tr>
                     </table>

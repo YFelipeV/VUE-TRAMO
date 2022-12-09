@@ -30,6 +30,10 @@ const routes = [
     component: LoginView,
   },
   {
+    path: "/Dashboard/manifiesto",
+    component: () => import("@/views/DashboardAdmin/manifiestoView.vue"),
+  },
+  {
     path: "/Dashboard",
     component: () => import("@/views/DashboardAdmin/homeView.vue"),
     children: [
@@ -60,8 +64,7 @@ const routes = [
       },
       {
         path: "/Dashboard/EditarPerfil",
-        component: () =>
-          import("@/views/DashboardAdmin/perfilView.vue"),
+        component: () => import("@/views/DashboardAdmin/perfilView.vue"),
       },
     ],
   },

@@ -114,7 +114,7 @@
           personas que requieren de un servicio de transporte de carga para sus productos. <br
             class="d-none d-xl-block"><br> No solamente con enfoque en las ciudades, sino que también en el campo,
           debido a que en el departamento del Cauca cerca del 60% de la población pertenece a zonas rurales.</p>
-        <a class="btn btn-lg btn-primary rounded-pill hover-top mb-5 mb-lg-0 fs-6 px-4" href="#" role="button">Ver
+        <a class="btn btn-lg btn-primary rounded-pill hover-top mb-5 mb-lg-0 fs-6 px-4" href="#/about" role="button">Ver
           Más</a>
       </div>
       <div class="col-md-5  text-center text-md-start"><img class="img-fluid mb-4 order-sm-1 "
